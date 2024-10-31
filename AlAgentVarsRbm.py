@@ -12,7 +12,7 @@ class AgentVars:
 
         self.s = 1  # surprise sensitivity
         self.h = 0.1  # hazard rate
-        self.u = 0.0  # uncertainty underestimation
+        self.u = 1  # uncertainty underestimation (optimal model u = 0)
         self.q = 0  # reward bias
         self.sigma = 10  # noise in the environment (standard deviation)
         self.sigma_0 = 100  # initial variance of predictive distribution
